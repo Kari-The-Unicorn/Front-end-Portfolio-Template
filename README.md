@@ -4,7 +4,7 @@ Features:
 
  * Responsive, friendly to many devices
  * Favicon that is visible in right top corner in Mozilla Firefox and Google Chrome
- * Contains contact form
+ * Contact form that is fully working
 
 Created with:
 
