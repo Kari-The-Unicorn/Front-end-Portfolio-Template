@@ -1,14 +1,16 @@
-# Bob The Builder - Personal Website
+# My - Portfolio
 
 Features:
 
  * Responsive, friendly to many devices
- * Two language versions - Polish and English
  * Favicon that is visible in right top corner in Mozilla Firefox and Google Chrome
+ * Contains contact form
 
 Created with:
 
  * HTML5
  * CSS3
+ * Bootstrap
+ * Javascript
 
-Check out the page:  https://kari-the-unicorn.github.io/Bob-The-Builder/
+Check out the page:  https://kari-the-unicorn.github.io/My-Portfolio/
