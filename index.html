@@ -7,12 +7,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="images/alien-icon.png">
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <header id="top-bar">
         <div class="container">
             <nav class="menu">
@@ -29,10 +27,10 @@
         <div class="container">
             <div class="header-content">
                 <div class="header-big">
-                    <h1>Are you looking for a new<br>EMPLOYEE?</h1>
+                    <h1>Hello!</h1>
                 </div>
                 <div class="header-text">
-                    <p>Hello! I'm Kari_The-Unicorn and&nbsp;I'm learning how to create wonderful websites with many functionalities. It's engaging&nbsp;and ambitious task. You can see my works below.</p>
+                    <p>I'm Kari-The-Unicorn and&nbsp;I'm learning how to create websites with many functionalities. It's engaging&nbsp;and ambitious task. You can see my works below.</p>
                 </div>
             </div>
             <a class="button button-primary" href="#contact">Contact with me</a>
@@ -44,33 +42,32 @@
             <div class="skills">
                 <div class="skills-unit">
                     <div class="skill-icon">
-                        <img src="images/HTML5_icon.png" width: 20px height: 20px>
+                        <img class="img" src="images/HTML5_icon.png">
                     </div>
                 </div>
                 <div class="skills-unit">
                     <div class="skill-icon">
-                        <img src="images/CSS3_icon.png">
+                        <img class="img" src="images/CSS3_icon.png">
                     </div>
                     </div>
                        <div class="skills-unit">
                     <div class="skill-icon">
-                        <img src="images/boot_icon.png" width: 20px height: 20px>
+                        <img class="img" src="images/boot_icon.png">
                     </div>
                 </div>   
 				<div class="skills-unit">
                     <div class="skill-icon">
-                        <img src="images/js_icon.png" width: 20px height: 20px>
+                        <img class="img" src="images/js_icon.png">
                     </div>
                 </div>
 				<div class="skills-unit">
                     <div class="skill-icon">
-                        <img src="images/rwd_icon.png" width: 20px height: 20px>
+                        <img class="img" src="images/rwd_icon.png">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <section id="portfolio">
         <div class="container">
             <h3><span>Portfolio</span></h3>
@@ -78,71 +75,46 @@
             <div class="project-unit">
                       <div class="row">
                     <div class="project-img">
-                  
                             <a class="thumbnail fancybox" rel="ligthbox" href="https://kari-the-unicorn.github.io/Los-Pollos-Hermanos/">
                     <img class="img-responsive" alt="los_pollos" src="images/projekt1.png" />
                         </a>
-                    
                         <a class="thumbnail fancybox" rel="ligthbox" href="https://kari-the-unicorn.github.io/BluCrystal/">
                             <img class="img-responsive" alt="blu_crystal" src="images/rsz_project_blu.png" />
                                 </a>
-                        
                     <a class="thumbnail fancybox" rel="ligthbox" href="https://kari-the-unicorn.github.io/Bob-The-Builder/">
                     <img class="img-responsive" alt="bob_builder" src="images/projekt2.png" />
                         </a>
-                    
-              
-                   
                         <a class="thumbnail fancybox" rel="ligthbox" href="https://kari-the-unicorn.github.io/Addams-Family-Hotel/">
                     <img class="img-responsive" alt="addams_family" src="images/projekt3.png" />
                         </a>
-                
-                
                 </div>
                     </div>
             </div></div></div>
     </section>
-
     <section id="contact" class="row">
         <div class="container">
             <h3><span>Contact form</span></h3>
             <br>
-            <form action="https://formspree.io/poziomkax1@gmail.com" method="POST">
-                
-                <div class="form-info">
-                    <label><span>Your name</span>
-                    <input name="name" type="text">
-                    </label>
-
-                    <label><span>Your email</span>
-                    <input name="_replyto" type="email">
-                    </label>
-                </div>
-
-                <div class="form-message">
-                    <label><span>Message</span>
-                    <textarea placeholder="Your message" name="message"></textarea>
-                    </label>
-                </div>
-
-                <input class="button button-send" value="Send" type="submit">
-                <input name="_next" value="potwierdzenie.html" type="hidden">
+            <form action="https://formspree.io/poziomkax1@gmail.com"  id="myForm" class="form-info" method="POST">
+                <input type="text" class="form-info" name="your-name" placeholder="Name and surname" data-error="Please write your name and surname">
+                <input type="email" class="form-info" name="your-email" placeholder="E-mail address" data-error="Please write valid e-mail address">
+                <select name="your-subject" class="form-info" data-error="Select subject of your message">
+                    <option value="" disabled selected>Select subject of your message</option>
+                    <option value="question">Question</option>
+                    <option value="support">Support</option>
+                </select>
+                <textarea class="form-message" name="your-message" placeholder="Message content" data-error="Write message content"></textarea>
+                <br>
+                <button type="submit" class="button button-send" >Send</button>
+             <input name="_next" value="potwierdzenie.html" type="hidden">
                 <input name="_subject" value="Kari-The-Unicorn - New message!!!" type="hidden">
             </form> 
-
-
-
-            <div class="row">
-                <p>or e-mail me:</p>
-                <p class="etmail"><a href="mailto:poziomkax1@gmail.com">poziomkax1@gmail.com</a></p>
-            </div>
         </div>
     </section>
-
     <footer class="row">
         <div class="container">
             <p>
-                Copyright &copy; 
+                &copy; 
                 <script>
                     var currentYear = new Date().getFullYear();
                     document.write(currentYear > 2016 ? currentYear : "2016")
@@ -150,5 +122,9 @@
                 <a href="#">Kari-The-Unicorn</a></p>
         </div>
     </footer>
+    <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
 </body>
 </html>

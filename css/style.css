@@ -318,6 +318,11 @@ i:hover {
     font-weight: 400;
 }
 
+.img{
+    width: 55px;
+    height: 55px;
+}
+
 .projects {
     padding-top: 20px;
     display: flex;
