@@ -3,8 +3,8 @@
 Features:
 
  * Responsive, friendly to many devices
- * Favicon that is visible in right top corner in Mozilla Firefox and Google Chrome
- * Contact form that is fully working
+ * Favicon that is visible in right top corner
+ * Contact form with validation
 
 Created with:
 
