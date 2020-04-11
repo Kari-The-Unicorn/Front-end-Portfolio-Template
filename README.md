@@ -13,4 +13,4 @@ Created with:
  * Bootstrap
  * Javascript
 
-Check out the page:  https://kari-the-unicorn.github.io/My-Portfolio/
+Check out the page:  https://kari-the-unicorn.github.io/Front-end-Portfolio-Template/
