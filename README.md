@@ -1,4 +1,4 @@
-# Front-end - Portfolio - Temaplte
+# Front-end - Portfolio - Template
 
 Features:
 
